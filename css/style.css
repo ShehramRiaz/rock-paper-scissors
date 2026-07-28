@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: .2s all;
 }
 
 img {
@@ -72,6 +73,7 @@ header {
 .score-board__computer {
     width: 50%;
     text-align: center;
+    padding: 0 1rem;
 }
 
 .score-board__user {

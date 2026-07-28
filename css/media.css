@@ -1,0 +1,70 @@
+@media screen and (width <=992px) {
+    header {
+        height: 60px;
+    }
+
+    h1 {
+        font-size: 1.7rem;
+    }
+
+    .choice__btn {
+        width: 90px;
+        height: 90px;
+    }
+
+    .score-board {
+        max-width: 400px;
+    }
+
+    .score-board__title {
+        font-size: 1.4rem;
+    }
+
+    .score-board__value {
+        font-size: 1.6rem;
+        margin: 0.6rem 0;
+    }
+}
+
+@media screen and (width <=786px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .choice__list {
+        margin-top: 1rem;
+    }
+
+    .choice__btn {
+        width: 70px;
+        height: 70px;
+    }
+
+    .score-board {
+        max-width: 300px;
+        padding: 0.7rem;
+        margin: 1rem auto;
+    }
+
+    .score-board__user,
+    .score-board__computer {
+        padding: 0 0.4rem;
+    }
+
+    .score-board__title {
+        font-size: 1.2rem;
+    }
+
+    .score-board__value {
+        font-size: 1.4rem;
+    }
+
+    .score-board__choice {
+        font-size: 0.8rem;
+    }
+
+    .message {
+        min-width: 240px;
+        margin: 2rem auto;
+    }
+}
