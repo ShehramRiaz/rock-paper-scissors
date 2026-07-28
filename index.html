@@ -50,6 +50,56 @@
 
 <body>
 
+    <header>
+        <h1>Rock Paper Scissors</h1>
+    </header>
+
+    <main>
+        <section id="choiceSection">
+            <h2 class="visually-hidden">Select Your Choice</h2>
+
+            <ul class="choice__list">
+                <li class="choice__item">
+                    <button type="button" class="choice__btn" data-choice="rock" aria-label="Choose Rock">
+                        <img src="images/rock.png" alt="Rock" class="choice__image">
+                    </button>
+                </li>
+
+                <li class="choice__item">
+                    <button type="button" class="choice__btn" data-choice="paper" aria-label="Choose Paper">
+                        <img src="images/paper.png" alt="paper" class="choice__image">
+                    </button>
+                </li>
+
+                <li class="choice__item">
+                    <button type="button" class="choice__btn" data-choice="scissors" aria-label="Choose Scissors">
+                        <img src="images/scissors.png" alt="scissors" class="choice__image">
+                    </button>
+                </li>
+            </ul>
+        </section>
+
+        <section id="scoreBoardSection">
+            <h2 class="visually-hidden">Score Board</h2>
+
+            <div class="score-board">
+                <div class="score-board__user">
+                    <h3 class="score-board__title">You</h3>
+                    <output id="userScore" class="score-board__value" aria-live="polite">0</output>
+                    <p id="userChoice" class="score-board__choice" aria-live="polite">No choice</p>
+                </div>
+
+                <div class="score-board__computer">
+                    <h3 class="score-board__title">Computer</h3>
+                    <output id="computerScore" class="score-board__value" aria-live="polite">0</output>
+                    <p id="computerChoice" class="score-board__choice" aria-live="polite">No choice</p>
+                </div>
+            </div>
+        </section>
+
+        <p id="message" class="message" aria-live="polite">Ready? Choose your move!</p>
+    </main>
+
     <script src="js/script.js"></script>
 </body>
 
